@@ -6,25 +6,27 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<meta name="theme-color" content="#21116c" />
+	<meta name="theme-color" content="#1de784" />
 
-	<title>almanca-filmler.az</title>
+	<title>azcinematv.com</title>
 
 	<link href="images/icon.png" type="image/png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-header.min.css">
-	<link rel="stylesheet" type="text/css" href="css/flash/flash-posts.min.css">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-footer.min.css">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash.min.css">
-	<link rel="stylesheet" type="text/css" href="css/flash/flash-simple-slider.css">
+	<link rel="stylesheet" type="text/css" href="flash-slider/css/flash-slider.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/posts.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="font_awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/flash/flash.min.js" defer=""></script>
+	<script type="text/javascript" src="js/flash/flash-header.min.js" defer=""></script>
+	<script type="text/javascript" src="flash-slider/js/flash-slider.js" defer=""></script>
+	<script type="text/javascript" src="js/header.js" defer=""></script>
+	<script type="text/javascript" src="js/body.js" defer=""></script>
+	<script type="text/javascript" src="js/posts.js" defer=""></script>
 
 </head>
 
@@ -35,43 +37,21 @@
 	<div class="fl-loading-ani">
 		
 		<img src="images\navbar-brand.png" class="fl-loading-ani-img">
+
+		<div class="fl-flex-divider"></div>
 			
-		<div class="fl-loading-ani-line"></div>
+		<div class="loading-ani-con">
+
+			<div class="loading-ani-circle"></div>
+			<div class="loading-ani-circle"></div>
+			<div class="loading-ani-circle"></div>
+			<div class="loading-ani-circle"></div>
+
+		</div>		
 
 	</div>
 
 	<!-- the-end-of-loading-animation -->
-
-
-
-	<!-- header-top-container -->
-
-	<div class="header-top-container fl-flex-center fl-hide-in-small-screen">
-
-		<a href="#" class="header-top-container-link">
-			<i class="fa fa-volume-up"></i> <span>Dinləmə</span>
-			<p>Alman dilini dinləmə <br> yolu ilə anla</p>
-		</a>
-
-		<a href="#" class="header-top-container-link">
-			<i class="fa fa-tv"></i> <span>Seriallar</span>
-			<p>İki altyazılı <br> seriallar</p>
-		</a>
-
-		<a href="#" class="header-top-container-link">
-			<i class="fa fa-book"></i> <span>Oyunlar</span>
-			<p>Öyrənmək üçün <br> oyunlar</p>
-		</a>
-
-		<a href="#" class="header-top-container-link">
-			<i class="fa fa-gamepad"></i> <span>İmntahanlar</span>
-			<p>Alman dili <br> səviyyənizi yoxlayın</p>
-		</a>
-
-		
-	</div>
-
-	<!-- the-end-of-header-top-container -->
 
 
 
@@ -81,315 +61,64 @@
 
 		<nav class="fl-navbar">
 
-			<!-- fl-navbar-toggler -->
+			<!-- fl-navbar-brand -->
 
-			<div class="navbar-toggler-con fl-hide-in-big-screen">
+			<a href="https://ilhamgurbanly10.github.io/azcinematv/" class="fl-navbar-brand">
+				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
+			</a>
 
-				<button type="button" class="fl-navbar-toggler fl-hide-in-big-screen">
-					<p class="fl-navbar-toggler-line"></p> <span>KATEQORİYALAR</span>
-				</button>
+			<!-- the-end-of-fl-navbar-brand -->
 
-				<!-- fl-sm-screen-menu -->	
 
-				<nav class="fl-sm-screen-menu fl-hide-in-big-screen">
-
-					<ul class="fl-sm-screen-menu-list">
-							
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link fl-active">	
-								<i class="fl-sm-screen-menu-icon fa fa-home"></i> Ana səhifə 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-film"></i> Janr üzrə filmlər 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-newspaper-o"></i> İllərə görə filmlər 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-tv"></i> Seriallar 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-volume-up"></i> Almanca radio 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-book"></i> Almanca kitablar 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-book"></i> Almanca səsli kitablar 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-child"></i> Uşaqlar üçün alman dili 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-pencil"></i> Alman dili dərslikləri 
-							</a>
-
-						</li>
-
-						<li class="fl-sm-screen-menu-item">
-
-							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
-								<i class="fl-sm-screen-menu-icon fa fa-ticket"></i> Sifariş masası 
-							</a>
-
-						</li>
-
-					</ul>
-
-				</nav>
-
-				<!-- the-end-of-fl-sm-screen-menu -->
-
-			</div>
-
-			<!-- the-end-of-fl-navbar-toggler -->
 			
 			<!-- fl-navbar-nav -->
 
-			<ul class="fl-navbar-nav fl-hide-in-small-screen fl-flex-center">
-				
-				<li class="fl-nav-item">
-
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link fl-active">	
-						<i class="fl-nav-link-icon fa fa-home"></i> <br>
-						Ana səhifə 
-					</a>
-
-				</li>	
+			<ul class="fl-navbar-nav fl-md-hide">
 
 				<li class="fl-nav-item">
 
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-film"></i> <br>	
-						Janr üzrə filmlər 
+					<a href="#" class="fl-nav-link">	
+						TV Shows
 					</a>
 
-				</li>	
-
-				<li class="fl-nav-item">	
-
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-newspaper-o"></i> <br>	
-						İllərə görə filmlər 
-					</a>
-
-				</li>	
-
-				<li class="fl-nav-item">
-					
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-tv"></i> <br>	
-						Seriallar
-					</a>
-
-				</li>	
+				</li>
 
 				<li class="fl-nav-item">
 
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-volume-up"></i> <br>	
-						Almanca radio
+					<a href="#" class="fl-nav-link">	
+						Movies
 					</a>
 
-				</li>	
-
-				<li class="fl-nav-item">
-					
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-book"></i> <br>	
-						Almanca kitablar
-					</a>
-
-				</li>	
+				</li>
 
 				<li class="fl-nav-item">
 
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-book"></i> <br>
-						Almanca səsli kitablar
+					<a href="#" class="fl-nav-link">	
+						Originals
 					</a>
 
-				</li>	
+				</li>
 
 				<li class="fl-nav-item">
 
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-child"></i> <br>	
-						Uşaqlar üçün alman dili
+					<a href="#" class="fl-nav-link">	
+						Kids
 					</a>
 
-				</li>	
+				</li>
 
 				<li class="fl-nav-item">
 
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-pencil"></i> <br>	
-						Alman dili dərslikləri
+					<a href="#" class="fl-nav-link">	
+						Networks
 					</a>
 
-				</li>	
-
-				<li class="fl-nav-item">
-					
-					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
-						<i class="fl-nav-link-icon fa fa-ticket"></i> <br>	
-						Sifariş masası
-					</a>
-
-				</li>	
+				</li>
 
 			</ul>
 
 			<!-- the-end-of-fl-navbar-nav -->
 
-			<!-- fl-navbar-brand -->
-
-			<a href="https://ilhamgurbanly10.github.io/xeberimiz-var/" class="fl-navbar-brand">
-				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
-			</a><!-- fl-navbar-brand -->
-
-			<!-- the-end-of-fl-navbar-brand -->
-
-			<!-- fl-navbar-search -->
-
-			<div class="fl-navbar-search-parent fl-navbar-search-parent-js fl-show">
-
-				<h1 class="fl-navbar-search-title fl-hide-in-small-screen">Alman dilini onlayn öyrənin</h1>
-
-				<form class="fl-navbar-search" method="post" action="" target="" show-results="true">	
-
-				<div class="fl-relative">
-
-					<input type="text" name="search" id="search" class="fl-navbar-search-input" required="" placeholder="Axtarış edin...">
-
-					<div class="fl-navbar-search-buttons-con">
-
-						<button type="reset" class="fl-navbar-search-reset" disabled="">
-								<i class="fa fa-times"></i>
-						</button>
-
-						<button type="submit" class="fl-navbar-search-submit" disabled="">
-								<i class="fa fa-search"></i>
-						</button>
-
-					</div>
-
-				</div>	
-
-				</form>
-
-				<ul class="fl-navbar-results-of-search">
-			
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 1) (2014) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 2) (2015) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 3) (2016) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 4) (2017) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 6) (2018) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 6) (2019) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 7) (2020) HD 720p
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-results-of-search-item">
-
-						<a href="#" class="fl-navbar-results-of-search-link">
-							The 100 (sezon 8) (2021) HD 720p
-						</a>
-
-					</li>
-
-				</ul>
-				
-			</div>
-
-			<!-- the-end-of-fl-navbar-search -->
 
 
 			<!-- fl-navbar-links -->
@@ -398,16 +127,16 @@
 
 				<li class="fl-navbar-links-item">	
 
-					<a href="#" class="fl-navbar-links-link fl-sign-in-btn fl-link-disabled fl-modal-con-shower" target="#userModalContainer">
-						<i class="fl-navbar-links-link-icon fa fa-sign-in"></i> <span>Giriş</span>
+					<a href="#" class="fl-navbar-links-link green-btn">
+						START YOUR FREE TRIAL
 					</a>
 
 				</li>
 
-				<li class="fl-navbar-links-item">	
+				<li class="fl-navbar-links-item fl-md-hide">	
 
-					<a href="#" class="fl-navbar-links-link fl-sign-up-btn">
-						<i class="fl-navbar-links-link-icon fa fa-user"></i> <span>Qeydiyyat</span>
+					<a href="#" class="fl-navbar-links-link fl-link-disabled fl-modal-con-shower sign-in-btn transparent-btn" target="#signInModalContainer">
+						LOG IN
 					</a>
 
 				</li>
@@ -416,41 +145,130 @@
 
 			<!-- the-end-of-fl-navbar-links -->
 
+
+
+			<!-- fl-navbar-toggler -->
+
+			<button type="button" class="fl-navbar-toggler fl-lg-hide">
+				<p class="fl-navbar-toggler-line"></p>
+			</button>
+
+			<!-- the-end-of-fl-navbar-toggler -->
+
 		</nav>
 
-		<!-- the-end-of-fl-navbar -->	
+		<!-- the-end-of-fl-navbar -->
 
-	
+
+
+		<!-- fl-md-screen-menu -->	
+
+		<nav class="fl-md-menu fl-lg-hide">
+
+			<button type="button" class="fl-md-menu-closer">
+				<i class="fa fa-times"></i>
+			</button>
+
+			<ul class="fl-md-menu-list">
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link">Tv Shows</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link">Movies</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link">Originals</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link">Kids</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link">Networks</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link fl-font-size-md-1 fl-link-disabled fl-clicker" click-target=".sign-in-btn">LOG IN</a>
+
+				</li>
+
+				<li class="fl-md-menu-item">
+
+					<a href="#" class="fl-md-menu-link fl-font-size-md-1">START YOUR FREE TRIAL</a>
+
+				</li>
+
+			</ul>
+
+		</nav>
+
+		<!-- the-end-of-fl-sm-screen-menu -->
+
+
+		<!-- header-container -->
+
+		<div class="header-con">
+			
+			<h4 class="header-con-title">MUST-SEE MOVIES, NOW STREAMING</h4>
+
+			<h2 class="header-con-text">
+				Watch thousands of shows and movies, with plans starting at $6.99/month.
+			</h2>
+
+			<a href="#" class="header-con-link white-btn">
+				START YOUR FREE TRIAL
+			</a>
+
+			<p class="header-con-bottom-text">New subscribers only.</p>
+
+		</div>
+
+		<!-- the-end-of-header-container -->
+
 	</header>
 
 
 
-	<!-- user-modal-container -->
+	<!-- user-modal-sign-in-container -->
 
-	<div class="fl-modal-con" id="userModalContainer">
+	<div class="fl-modal-con user-modal-con" id="signInModalContainer" bg-click="true">
 
-		<button type="button" class="fl-modal-con-closer">
+		<button type="button" class="fl-modal-con-closer fl-lg-hide">
 			<i class="fa fa-times"></i>
 		</button>
 
-		<div class="fl-modal-child">
+		<div class="fl-modal-child" id="signInChild">
 			
-			<form class="fl-form" method="POST" action="user.php">
+			<form class="fl-form sign-in-form" method="POST" action="user.php">
 
-				<button type="button" class="user-modal-con-close-btn">
+				<button type="button" class="fl-modal-con-closer-in-modal-child fl-clicker" click-target="#signInModalContainer .fl-modal-con-closer"">
 					<i class="fa fa-times"></i>
 				</button>
 
-				<h1 class="fl-form-title">Giriş</h1>						
+				<p class="fl-form-title">Log in</p>
 
 				<div class="fl-form-con">
 
-					<label for="userName" class="fl-form-label">İstifadəçi adı</label>
+					<label for="email" class="fl-form-label">EMAIL</label>
 
 					<div class="fl-form-input-con">
 
-						<input type="text" name="userName" id="userName" placeholder="İstifadəçi adı" class="fl-form-input">
-						<i class="fa fa-user fl-form-input-icon"></i>
+						<input type="email" name="email" id="email" placeholder="email address" class="fl-form-input">
 
 					</div>
 
@@ -458,12 +276,11 @@
 
 				<div class="fl-form-con">
 
-					<label for="password" class="fl-form-label">İstifadəçi kodu</label>
+					<label for="password" class="fl-form-label">PASSWORD</label>
 
 					<div class="fl-form-input-con">
 
-						<input type="password" name="password" id="password" placeholder="İstifadəçi kodu" class="fl-form-input fl-password-input">
-						<i class="fa fa-eye fa-eye-slash fl-form-input-icon fl-form-password-input-icon"></i>
+						<input type="password" name="password" id="password" placeholder="your password" class="fl-form-input">
 
 					</div>	
 
@@ -471,1726 +288,1269 @@
 
 				<div class="fl-form-con">
 
-					<input type="submit" name="submit" class="fl-form-btn fl-form-submit orange-btn-color" value="DAXİL OL">
+					<a href="#" class="fl-form-link">
+						Forgot your email or password?
+					</a>
 
 				</div>
 
 				<div class="fl-form-con">
 
-					<label class="fl-checkbox-label">Məni xatırla
-						<input type="checkbox" checked="checked">
-						<span class="fl-checkmark"></span>
-					</label>
+					<input type="submit" name="submit" class="fl-form-btn fl-form-submit black-btn-color" value="LOG IN" disabled="">
 
 				</div>
 
-				<div class="fl-form-con">
-
-					<a href="#" class="user-modal-form-link">Kodunuzu unutmusunuz?</a>
-
-				</div>
+				<p class="fl-form-text">
+					Don't have an account?
+					<a href="#" class="fl-form-link">
+						Start your free trial
+					</a>
+				</p>
 
 			</form>
 
 		</div>	
-
-		<!-- the-end-of-user-modal-child -->
 		
 	</div>
 
-	<!-- the-end-of-user-modal-container -->
+	<!-- the-end-of-user-modal-sign-in-container -->
+
+	<h1 class="color-black main-title fl-h1 fl-sm-h7">Movies</h1>
 
 
+	<!-- head-slider -->
 
-	<!-- flash-simple-slider -->
+	<section class="head-slider-container">
 
-	<div class="fl-simple-slider" id="headSimpleSlider">
-			
-		<!-- ---arrows--- -->	
-		<button type="button" class="fl-simple-slider-prev fl-simple-slider-arrow">
-			<i class="fa fa-chevron-left fl-simple-slider-icon"></i>
-		</button>
+		<a href="#" class="head-slider-title">POPULAR</a>	
 
-		<button type="button" class="fl-simple-slider-next fl-simple-slider-arrow">
-			<i class="fa fa-chevron-right fl-simple-slider-icon"></i>
-		</button>
+		<div class="head-slider">
 
-		<ul class="fl-simple-slider-list">
+			<a href="#" class="head-slider-slide"> 
 
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">QORXU</button>
-			</li>
+				<img src="images/head-slider/post-01.jpg" class="head-slider-img">
 
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">KOMEDİYA</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">DRAM</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">DEDEKTİV</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">MÜHARİBƏ</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">TARİXİ</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">TƏBİİ FƏLAKƏT</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">ROMANTİK</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">DÖYÜŞ</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">MACƏRA</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">ELMİ FANTASTİKA</button>
-			</li>
-
-			<li class="fl-simple-slider-item">
-				<button type="button" class="fl-simple-slider-btn">İDMAN</button>
-			</li>
-
-		</ul>
-
-		<!-- <i class="fa fa-play simple-slide-icon"></i> -->
-
-		<div class="fl-simple-slider-track-container">
-
-			<div class="fl-simple-slider-track">
-
-				<div class="fl-simple-slider-slide">
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_01.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-02.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_02.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-03.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_03.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-04.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_04.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-05.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_05.png" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-06.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_07.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-07.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_08.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-08.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_09.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-09.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_10.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-10.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_11.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-11.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_12.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-				<div class="fl-simple-slider-slide">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-12.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
 					
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+					<h2 class="head-slider-post-title">Movie title</h2>
 
-						<img src="images/posts/side_post_13.jpg" class="simple-slide-img">
-
-						<div class="simple-slider-con">
-
-								<center>
-									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
-								</center>	
-
-								<p class="simple-slider-text">
-									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
-								</p>
-
-						</div>
-
-					</a>
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
 				</div>
 
-			</div>	
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-		</div>						
+			</a>
 
-	</div>
+			<a href="#" class="head-slider-slide"> 
 
-	<!-- the-end-of-flash-simple-slider -->
+				<img src="images/head-slider/post-13.jpg" class="head-slider-img">
 
+				<div class="head-slider-text-container">
+					
+					<h2 class="head-slider-post-title">Movie title</h2>
 
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
 
-	<!-- who-we-are -->
+				</div>
 
-	<ul class="who-we-are fl-list fl-list-2 fl-small-screen-list-1">
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-14.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
+					
+					<h2 class="head-slider-post-title">Movie title</h2>
+
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
+
+				</div>
+
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-15.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
+					
+					<h2 class="head-slider-post-title">Movie title</h2>
+
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
+
+				</div>
+
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+
+			<a href="#" class="head-slider-slide"> 
+
+				<img src="images/head-slider/post-16.jpg" class="head-slider-img">
+
+				<div class="head-slider-text-container">
+					
+					<h2 class="head-slider-post-title">Movie title</h2>
+
+					<p class="head-slider-text">
+						Text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie, text about movie.
+					</p>
+
+				</div>
+
+				<p class="post-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</a>
+				
+		</div>
 		
-		<li class="fl-list-item">
+	</section>
+
+	<!-- the-end-of-head-slider -->
+
+
+
+	<!-- body-slider -->
+
+	<section class="body-slider-container">
+
+		<a href="#" class="body-slider-title">FEATURED MOVIES</a>
+
+		<div class="body-slider">
 			
-			<h1 class="who-we-are-title fl-title-1">BİZ KİMİK?</h1>
+			<div class="body-slider-slide">
 
-			<p class="who-we-are-text">
-				Bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn.
-			</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-01.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="who-we-are-link orange-btn">DAHA ƏTRAFLI</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-		</li>
-
-		<li class="fl-list-item">
-
-			<div class="who-we-are-img-con">
-				<img src="images/who-we-are.jpg" class="who-we-are-img">
 			</div>
 
-		</li>
+			<div class="body-slider-slide">
 
-	</ul>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-02.jpg" class="body-slider-img">
+				</a>
 
-	<!-- the-end-of-who-we-are -->
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
+			</div>
 
+			<div class="body-slider-slide">
 
-	<!-- page-first-slider -->
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-03.jpg" class="body-slider-img">
+				</a>
 
-	<div class="page-first-slider-con" id="OnlineFilmsInGerman">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-		<a href="#" class="page-first-slider-title-link">
-			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ ONLİNE FİLMLƏR</h2>
-		</a>	
+			</div>
 
-		<div class="page-first-slider fl-slick-arrows" id="OnlineFilmsInGermanSlider">
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
+			<div class="body-slider-slide">
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-04.jpg" class="body-slider-img">
+				</a>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				</div>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-05.jpg" class="body-slider-img">
+				</a>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			</div>
 
-				</div>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-06.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			</div>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			<div class="body-slider-slide">
 
-				</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-07.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_04.png" class="page-first-slider-img">
+			</div>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			<div class="body-slider-slide">
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-08.jpg" class="body-slider-img">
+				</a>
 
-				</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
+			<div class="body-slider-slide">
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-09.jpg" class="body-slider-img">
+				</a>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				</div>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-10.jpg" class="body-slider-img">
+				</a>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			</div>
 
-				</div>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-11.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			</div>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			<div class="body-slider-slide">
 
-				</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-12.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
+			</div>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			<div class="body-slider-slide">
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-13.jpg" class="body-slider-img">
+				</a>
 
-				</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-14.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-15.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
 
 		</div>
 
-	</div>
+	</section>	
 
-	<!-- the-end-of-page-first-slider -->
+	<!-- the-end-of-body-slider -->
 
 
 
-	<!-- page-first-slider -->
+	<!-- body-slider -->
 
-	<div class="page-first-slider-con" id="mostWatched">
+	<section class="body-slider-container">
 
-		<a href="#" class="page-first-slider-title-link">
-			<h2 class="page-first-slider-title">ƏN ÇOX İZLƏNİLƏNLƏR</h2>
-		</a>	
+		<a href="#" class="body-slider-title">ACTION MOVIES</a>
 
-		<div class="page-first-slider fl-slick-arrows" id="mostWatchedSlider">
+		<div class="body-slider">
 			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
+			<div class="body-slider-slide">
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-01.jpg" class="body-slider-img">
+				</a>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				</div>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-02.jpg" class="body-slider-img">
+				</a>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			</div>
 
-				</div>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-03.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			</div>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			<div class="body-slider-slide">
 
-				</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-04.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_04.png" class="page-first-slider-img">
+			</div>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			<div class="body-slider-slide">
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-05.jpg" class="body-slider-img">
+				</a>
 
-				</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
+			<div class="body-slider-slide">
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-06.jpg" class="body-slider-img">
+				</a>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				</div>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-07.jpg" class="body-slider-img">
+				</a>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			</div>
 
-				</div>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-08.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			</div>
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+			<div class="body-slider-slide">
 
-				</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-09.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
+			</div>
 
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
+			<div class="body-slider-slide">
 
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-10.jpg" class="body-slider-img">
+				</a>
 
-				</div>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-11.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-12.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-13.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-14.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-15.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
 
 		</div>
 
-	</div>
+	</section>	
 
-	<!-- the-end-of-page-first-slider -->
-
-
-
-	<!-- page-second-slider -->
-
-	<div class="page-second-slider-con" id="">
+	<!-- the-end-of-body-slider -->
 
 
-		<h2 class="page-second-slider-top-title">JANRLARA GÖRƏ FİLMLƏR</h2>
+
+	<!-- body-slider -->
+
+	<section class="body-slider-container">
+
+		<a href="#" class="body-slider-title">DRAMA MOVIES</a>
+
+		<div class="body-slider">
 			
+			<div class="body-slider-slide">
 
-		<div class="page-second-slider fl-slick-arrows">
-			
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-01.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-02.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-03.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-04.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-05.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-06.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-07.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-08.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-09.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-10.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-11.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-12.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-13.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-14.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-15.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
 
 		</div>
 
-	</div>
+	</section>	
 
-	<!-- the-end-of-page-second-slider -->
-
-
-
-	<!-- page-second-slider -->
-
-	<div class="page-second-slider-con" id="filmography">
+	<!-- the-end-of-body-slider -->
 
 
-		<h2 class="page-second-slider-top-title">FİLMOQRAFİYA</h2>
+
+	<!-- body-slider -->
+
+	<section class="body-slider-container">
+
+		<a href="#" class="body-slider-title">CRIME MOVIES</a>
+
+		<div class="body-slider">
 			
+			<div class="body-slider-slide">
 
-		<div class="page-second-slider fl-slick-arrows">
-			
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-01.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-02.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-03.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-04.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-05.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-06.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-07.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-08.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-09.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-10.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-11.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-12.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-13.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-14.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-15.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
 
 		</div>
 
-	</div>
+	</section>	
 
-	<!-- the-end-of-page-second-slider -->
-
-
+	<!-- the-end-of-body-slider -->
 
 
-	<!-- page-second-slider -->
 
-	<div class="page-second-slider-con" id="">
+	<!-- body-slider -->
 
-		<h2 class="page-second-slider-top-title">BAXMAQ ÜÇÜN TÖVSİYƏ EDİLƏN FİLMLƏR</h2>
+	<section class="body-slider-container">
+
+		<a href="#" class="body-slider-title">HORROR MOVIES</a>
+
+		<div class="body-slider">
 			
-		<div class="page-second-slider fl-slick-arrows">
-			
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-01.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-02.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-03.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-04.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-05.jpg" class="body-slider-img">
+				</a>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			</div>
 
-			</a>
+			<div class="body-slider-slide">
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-06.jpg" class="body-slider-img">
+				</a>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			</a>
+			</div>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+			<div class="body-slider-slide">
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-07.jpg" class="body-slider-img">
+				</a>
 
-			</a>
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
 
-			<a href="#" class="page-second-slider-link">
-				
-				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+			</div>
 
-				<p class="page-second-slider-title">Film Başlığı</p>
+			<div class="body-slider-slide">
 
-			</a>
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-08.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-09.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-10.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-11.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-12.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-13.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-14.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
+
+			<div class="body-slider-slide">
+
+				<a href="" class="body-slider-img-container">
+					<img src="images/body-slider/post-15.jpg" class="body-slider-img">
+				</a>
+
+				<a href="" class="body-slider-post-title">Movie Title</a>
+				<p class="body-slider-info">PG-13 • Adventure, Action • Movie (2021)</p>
+
+			</div>
 
 		</div>
 
-	</div>
+	</section>	
 
-	<!-- the-end-of-page-second-slider -->
-
-
-
-
-	<!-- page-first-slider -->
-
-	<div class="page-first-slider-con" id="cartoonsInGerman">
-
-		<a href="#" class="page-first-slider-title-link">
-			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ CİZGİ FİLMLƏRİ</h2>
-		</a>	
-
-		<div class="page-first-slider fl-slick-arrows" id="cartoonsInGermanSlider">
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-		</div>
-
-	</div>
-
-	<!-- the-end-of-page-first-slider -->
-
-
-
-	<!-- page-first-slider -->
-
-	<div class="page-first-slider-con" id="audiobooksInGerman">
-
-		<a href="#" class="page-first-slider-title-link">
-			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ SƏSLİ KİTABLAR</h2>
-		</a>	
-
-		<div class="page-first-slider fl-slick-arrows" id="audiobooksInGermanSlider">
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_04.png" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-		</div>
-
-	</div>
-
-	<!-- the-end-of-page-first-slider -->
-
-
-
-	<!-- page-first-slider -->
-
-	<div class="page-first-slider-con" id="germanForKids">
-
-		<a href="#" class="page-first-slider-title-link">
-			<h2 class="page-first-slider-title">UŞAQLAR ÜÇÜN ALMAN DİLİ</h2>
-		</a>	
-
-		<div class="page-first-slider fl-slick-arrows" id="germanForKidsSlider">
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-			
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-			<a href="#" class="page-first-slider-link">
-				
-				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
-
-				<div class="page-first-slider-ani">
-					
-					<div class="page-first-slider-ani-top-text">
-						<i class="fa fa-eye"></i>
-						<p class="">Onlayn izlə</p>
-					</div>
-
-					<div class="page-first-slider-ani-bottom-text">
-						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
-						<p>2022, ölkə, janr / 2022</p>
-					</div>
-
-				</div>
-
-			</a>
-
-		</div>
-
-	</div>
-
-	<!-- the-end-of-page-first-slider -->
-
-
-
-	<!-- infos-list -->
-
-	<ul class="fl-list fl-list-4 fl-small-screen-list-2 fl-smaller-screen-list-1 infos-list">
-		
-		<li class="fl-list-item infos-item">
-
-			<i class="fa fa-book infos-icon color-orange"></i>
-
-			<h3 class="infos-title">Populyar kurslar</h3>
-
-			<p class="infos-text">
-				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-			</p>
-
-			<a href="#" class="infos-link">Daha ətraflı</a>
-			
-		</li>
-
-		<li class="fl-list-item infos-item">
-
-			<i class="fa fa-newspaper-o infos-icon color-red"></i>
-
-			<h3 class="infos-title">Faydalı məqalələr</h3>
-
-			<p class="infos-text">
-				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-			</p>
-
-			<a href="#" class="infos-link">Daha ətraflı</a>
-			
-		</li>
-
-		<li class="fl-list-item infos-item">
-
-			<i class="fa fa-pencil infos-icon color-blue"></i>
-
-			<h3 class="infos-title">Alman dili dərsliklər</h3>
-
-			<p class="infos-text">
-				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-			</p>
-
-			<a href="#" class="infos-link">Daha ətraflı</a>
-			
-		</li>
-
-		<li class="fl-list-item infos-item">
-
-			<i class="fa fa-comment infos-icon color-green"></i>
-
-			<h3 class="infos-title">Forum</h3>
-
-			<p class="infos-text">
-				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-			</p>
-
-			<a href="#" class="infos-link">Daha ətraflı</a>
-			
-		</li>
-
-	</ul>
-
-	<!-- the-end-of-infos-list -->
-
-
-
-	<!-- guide -->
-
-	<div class="guide">
-		
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
-		<p class="guide-text">
-			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
-		</p>
-
-	</div>
-
-	<!-- the-end-of-guide -->
+	<!-- the-end-of-body-slider -->
 
 
 
 	<footer class="fl-footer">
 
-		<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-navbar-brand">
-			<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
-		</a>
-   
-		<div id="footerContainer" class="">
+			<!-- fl-navbar-brand -->
 
-			<ul class="fl-footer-list fl-footer-inline-list" id="aboutUs">
+			<a href="https://ilhamgurbanly10.github.io/azcinematv/" class="fl-footer-brand">
+				<img src="images/navbar-brand.png" class="fl-footer-brand-img">
+			</a>
+
+			<!-- the-end-of-fl-navbar-brand -->
+
+			<div class="fl-flex-divider"></div>
+
+			<p class="fl-footer-text">
+				Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.
+			</p>
+
+			<div class="fl-flex-divider"></div>
+
+			<ul class="fl-footer-list fl-footer-inline-list">
 
 				<li class="fl-footer-item">
 					
 					<a href="#" class="fl-footer-link">
-						Haqqımızda 
+						Company 
 					</a>
 
 				</li>	
@@ -2198,7 +1558,7 @@
 				<li class="fl-footer-item">
 
 					<a href="#" class="fl-footer-link">
-						Almanca Filmler akademiyası 
+						Our Team 
 					</a>
 
 				</li>	
@@ -2206,7 +1566,7 @@
 				<li class="fl-footer-item">
 
 					<a href="#" class="fl-footer-link">
-						Xidmətlər
+						Gallery
 					</a>
 
 				</li>	
@@ -2214,124 +1574,52 @@
 				<li class="fl-footer-item">
 
 					<a href="#" class="fl-footer-link">
-						FAQ 
+						Charity
 					</a>
 
 				</li>
 
-				<li class="fl-footer-item">	
+				<li class="fl-footer-item">
 
 					<a href="#" class="fl-footer-link">
-						Bizimlə əlaqə
+						Azcinematv Labs
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						Press Room
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						Partners
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						CordCutter
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						Azcinematv Gear
 					</a>
 
 				</li>	
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Kurslarımız
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Tədbirlər
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Satışda olan filmlərimiz
-					</a>
-
-				</li>
 
 			</ul>
-			
-			<ul class="fl-footer-list fl-footer-inline-list fl-mt-1" id="footerAppList">
-				
-				<li class="fl-footer-item">
-					
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-facebook fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-instagram fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-twitter fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-youtube fl-footer-icon"></i> 
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-whatsapp fl-footer-icon"></i> 
-					</a>
-
-				</li>			
-
-			</ul>
-
-			<div class="fl-flex-space-between-and-center fl-flex-wrap fl-mt-3" id="footerInnerContainer">
-
-				<ul class="fl-footer-list">
-
-					<li class="fl-footer-item">
-						
-						<a href="#" class="fl-footer-link">
-							Saytın inkişafına qeyri-maliyyə baxımından necə kömək edə bilərsiniz? 
-						</a>
-
-					</li>	
-
-					<li class="fl-footer-item">
-
-						<a href="#" class="fl-footer-link">
-							Saytın inkişafına maddi dəstək verin
-						</a>
-
-					</li>	
-
-					<li class="fl-footer-item">
-
-						<a href="#" class="fl-footer-link">
-							Texniki xətaların müzakirəsi 
-						</a>
-
-					</li>		
-
-				</ul>
-
-				<p class="footer-email">e-mail: mail@almanca-filmler.az</p>
-
-			</div>	
-
-		</div>
 
 	</footer>
 
@@ -2347,19 +1635,6 @@
 	</button>
 
 	<!-- flash-back-to-top-button -->
-
-
-	<!-- calling-scripts -->
-
-	<script type="text/javascript" src="js/flash/flash.min.js"></script>
-	<script type="text/javascript" src="js/flash/flash-header.min.js"></script>
-	<script type="text/javascript" src="js/flash/flash-simple-slider.js"></script>
-	<script type="text/javascript" src="js/header.js"></script>
-	<script type="text/javascript" src="js/body.js"></script>
-
-	<!-- the-end-of-calling-scripts -->
-
-
 
 </body>
 
