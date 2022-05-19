@@ -101,7 +101,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     border: 0; 
-    z-index: 5;
+    z-index: 4;
     cursor: pointer;
     background-color: rgba(26,27,27,0.8);
     transition: color .3s, background-color .3s; 
